@@ -36,23 +36,21 @@ body {
 
 .navbar {
   grid-area: navBar;
-  height: 90vh; 
+  height: 80vh; 
   width: 10vw; 
-  background-color: #373737;
-  justify-content: left;
-  align-items: left; 
+  background-color: #373737; 
   padding: 25px;
-  color: #E37222;
-  font-family: 'Baloo', cursive;
-  font-size: 20px;
+  color: #E37222; 
+  justify-content: center;
+  align-items: center; 
 } 
 
 .content {
   grid-area: content; 
-  height: 90vh;
+  height: 80vh; 
   width: 90vw;
   background-color: black;
-  justify-content: left;
+  justify-content: left; 
   align-items: left;
   padding: 25px;
   color: #E37222; 
@@ -65,7 +63,7 @@ body {
   height: 10vh; 
   width: 100vw;
   background-color: #373737; 
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   padding: 25px; 
   color: #E37222;  
@@ -73,3 +71,67 @@ body {
   font-size:20px;
 } 
 
+.sixify-Logo { 
+  display: flex;
+  flex-direction: column;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100px; 
+}
+
+.home-Button { 
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.search {
+  display: flex;
+  flex-direction: column;
+}
+
+.search-Button { 
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.library {
+  display: flex;
+  flex-direction: column;
+}
+
+.library-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.image-Container {
+  display: flex;
+  flex-direction: column;
+  display: block; 
+  justify-content: center;
+  align-items: center; 
+  height: 100px;
+  width: 100px; 
+  color:#E37222; 
+  background-color: yellow; 
+  font-family: 'Baloo', cursive;  
+  font-size:15px;
+  border: 2px solid #E37222; 
+} 
+
+.new-Playlist {
+  display: flex; 
+  flex-direction: column; 
+}
+
+.new-Playlist-Button { 
+  color:#E37222;  
+  font-family: 'Baloo', cursive; 
+  font-size:15px; 
+} 

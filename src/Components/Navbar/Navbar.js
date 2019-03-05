@@ -7,10 +7,16 @@ class Navbar extends Component {
   render() {
     return (
         <div className="navbar">
-            <img src={logo}></img> 
+            <div className="sixify-Logo"><img src={logo}></img></div>
+            <div className="home"><button className="home-Button">Home</button></div>
+            <div className="search"><button className="search-Button">Search</button></div>
+            <div className="library"><button className="library-Button">Library</button></div>
+            <div className="image-Container">Image Container</div>
+            <div className="new-Playlist"><button className="new-Playlist-Button">New Playlist</button></div>
+          
         </div>
     ); 
   }
 }
 
-export default Navbar;
+export default Navbar; 
