@@ -4,7 +4,7 @@ import "./Player.css";
 class Player extends Component {
   state = {};
   render() {
-    return <div className="player">Player</div>;
+    return <div className="player"></div>; 
   }
 }
 
