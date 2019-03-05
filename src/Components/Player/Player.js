@@ -8,7 +8,7 @@ class Player extends Component {
   render() {
 
     return(
-      <div className="player">Player
+      <div className="player">Players
         
       </div>
     );
