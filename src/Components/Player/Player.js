@@ -8,7 +8,11 @@ class Player extends Component {
   state = {
     current: {
       song: 'testing',
-      artist: 'oli is a cunt'
+      artist: 'oli is a cunt',
+      time: {
+        elapsed: '',
+        left: ''
+      }
     }
   }
 
