@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Navbar.css";
 
-class Navbar  extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return ( <div> Nav Bar</div> );
-    }
+class Navbar extends Component {
+  state = {};
+  render() {
+    return <div className="navbar">Navbar</div>;
+  }
 }
- 
+
 export default Navbar;

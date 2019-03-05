@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import "./Content.css";
 
-class Content  extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {  }
-    }
-    render() { 
-        return ( <div>Content Screen</div> ); 
-    }
+class Content extends Component {
+  state = {};
+  render() {
+    return <div className="content">Content</div>;
+  }
 }
- 
+
 export default Content;
