@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AgGridReact } from 'ag-grid-react';
 import 'ag-grid-community/dist/styles/ag-grid.css';
 import 'ag-grid-community/dist/styles/ag-theme-balham.css';
+import './Content.css'
 
 
 class Table extends Component {
@@ -35,7 +36,7 @@ class Table extends Component {
 render() {
     return (
         <div
-            className="ag-theme-balham"
+            className="playlist"
             style={{ height: '800px', width: '900px'}}
         >
             <AgGridReact
