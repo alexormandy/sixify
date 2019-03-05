@@ -5,7 +5,11 @@ import Search from "./Search"
 class Content extends Component {
   state = {};
   render() {
-    return <div className="content"></div>; 
+    return(
+    <div className="content">
+      <Search />
+    </div>
+    ) 
   }
 }
 
