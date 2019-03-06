@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import "./Navbar.css";
-import logo from './logo.svg'
+import logo from "./logo.svg";
 
 class Navbar extends Component {
   state = {};
   render() {
     return (
-        <div className="navbar">
-            <img src={logo}></img> 
-        </div>
-    ); 
+      <div className="navbar">
+        <img src={logo} alt="logo" />
+      </div>
+    );
   }
 }
 
