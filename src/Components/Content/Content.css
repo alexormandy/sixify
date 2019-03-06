@@ -1,3 +1,16 @@
+.content {
+    grid-area: content; 
+    height: 80vh; 
+    width: 90vw;
+    background-color: black;
+    justify-content: left; 
+    align-items: left;
+    padding: 25px;
+    color: #E37222; 
+    font-family: 'Baloo', cursive;
+    font-size:20px;
+  }
+
 .playlist {
     background-color:  #373737;
     color: white;
@@ -12,3 +25,4 @@ h1 {
 p { 
     color: white
 }
+
