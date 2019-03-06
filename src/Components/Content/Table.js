@@ -9,11 +9,11 @@ class Table extends Component {
 
     state = {
         columnDefs: [
-            { headerName: "Title", field: "title" },
-            { headerName: "Artist", field: "artist" },
-            { headerName: "Album", field: "album" },
-            { headerName: "Released", field: "released" },
-            { headerName: "Duration", field: "duration" }
+            { headerName: "Title", field: "title", width: 300 },
+            { headerName: "Artist", field: "artist", width: 300 },
+            { headerName: "Album", field: "album", width: 300 },
+            { headerName: "Released", field: "released", width: 200, },
+            { headerName: "Duration", field: "duration", width: 100 }
 
 
 
@@ -33,11 +33,13 @@ class Table extends Component {
         ]
     }
 
+
+
 render() {
     return (
         <div
             className="playlist"
-            style={{ height: '800px', width: '900px'}}
+            style={{ height: '800px', width: '100%'}}
         >
             <AgGridReact
                 columnDefs={this.state.columnDefs}

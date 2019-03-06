@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import "./Content.css";
-import Search from "./Search"
-import Table from './Table'
+import Search from "./Search";
+import Table from "./Table";
+
 
 class Content extends Component {
   state = {};
@@ -10,6 +11,7 @@ class Content extends Component {
     <div className="content">
       <Search />
       <Table />
+      
     </div>
     ) 
   }
