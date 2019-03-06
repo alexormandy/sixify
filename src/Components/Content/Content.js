@@ -1,16 +1,20 @@
 import React, { Component } from "react";
 import "./Content.css";
-import Search from "./Search"
+import Toolbar from "../Search/Search";
+
 
 class Content extends Component {
   state = {};
   render() {
-    return(
-    <div className="content">
-      <Search />
-    </div>
-    ) 
+    return (
+     <div>
+    <Toolbar />
+    </div> 
+     
+   
+    
+    ); 
   }
 }
 
-export default Content;
+export default Content

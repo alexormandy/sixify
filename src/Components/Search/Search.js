@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 class Search extends Component {
  state = {
    query: '',
@@ -13,10 +14,12 @@ class Search extends Component {
 
  render() {
    return ( 
+   
+     
      <form>
        <input
          placeholder="Search for..."
-         ref={input => this.search = input}
+         ref={input => this.Search = input}
          onChange={this.handleInputChange}
        />
        <p>{this.state.query}</p>
