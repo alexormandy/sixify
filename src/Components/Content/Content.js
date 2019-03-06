@@ -4,20 +4,16 @@ import Toolbar from "../Search/Search";
 
 import Table from "./Table";
 
-
-
 class Content extends Component {
-  state = {};
+  state = {};g
   render() {
-    return(
-    <div className="content">
-       <Toolbar />
-      <Table />
-      
-    </div>
-    ) 
-
+    return (
+      <div className="content">
+        <Toolbar />
+        <Table />
+      </div>
+    );
   }
 }
 
-export default Content
+export default Content;
