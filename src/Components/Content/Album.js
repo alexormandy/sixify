@@ -8,7 +8,7 @@ class Album extends Component {
             <h1> Album Name: </h1>
             <img src ="/images/album.jpg" />
             <p> Artist</p>
-            <p> Year Songs Duration</p>
+            <p> Year Songs Durations</p>
             <Table />
         </div>);
     }
