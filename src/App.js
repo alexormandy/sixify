@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Content from "./Components/Content/Content";
 import Player from "./Components/Player/Player";
+
+
+
 import "./App.css";
 
 class App extends Component { 
@@ -12,6 +15,9 @@ class App extends Component {
           <Navbar />
           <Content />
           <Player />
+          
+          
+          
         </div>
       </div>
     );

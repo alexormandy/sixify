@@ -1,55 +1,131 @@
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
 
-.wrapper {
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: yellow;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "navBar content content content content content content content content content"
-    "control control control control control control control control control control";
-  grid-gap: 0px;
-  height: 95%;
-  width: 95%;
-  background-color: black;
-}
-
-.navbar {
-  grid-area: navBar;
-  height: 100%;
-  width: 100%;
-  background-color: orange;
-  justify-content: left;
-  align-items: left;
-  padding: 10px;
-}
-
-.content {
-  grid-area: content;
-  height: 100%;
-  width: 100%;
-  background-color: grey;
-  justify-content: left;
-  align-items: left;
-  padding: 75px;
-}
 
 .player {
   grid-area: control;
-  height: 100;
-  width: 100%;
-  background-color: red;
-  justify-content: center;
+  height: 10vh; 
+  width: 100vw;
+  background-color: #373737; 
+  justify-content: center; 
   align-items: center;
-  padding: 10px;
+  padding: 25px; 
+  color: #E37222;  
+  font-family: 'Baloo', cursive; 
+  font-size:20px;
+} 
+
+.player-Flex-Container {
+  display: flex; 
+  height: 1px; 
+  flex-direction: row; 
+  justify-content: space-around;   
+  align-items: center; 
+} 
+
+.player-Left {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Left-Center {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Middle {
+  flex-flow: row wrap;
+  justify-content: space-between; 
+} 
+
+.player-Right-Center {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Right {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.shuffle {
+  height: 50px;
+  width: 75px; 
+} 
+
+.shuffle-Button { 
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px; 
+} 
+
+.back {
+  height: 50px;
+  width: 75px; 
 }
+
+.back-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.play {
+  height: 50px;
+  width: 75px; 
+} 
+
+.play-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.forward {
+  height: 50px;
+  width: 75px; 
+} 
+
+.forward-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.repeat {
+  height: 50px;
+  width: 75px; 
+} 
+
+.repeat-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.timer {
+  height: 50px;
+  width: 75px; 
+} 
+
+.volume {
+  height: 50px;
+  width: 75px; 
+} 
+
+.volume-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.artist {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
