@@ -1,3 +1,122 @@
+
+
+.player {
+  grid-area: control;
+  height: 10vh; 
+  width: 100vw;
+  background-color: #373737; 
+  justify-content: center; 
+  align-items: center;
+  padding: 25px; 
+  color: #E37222;  
+  font-family: 'Baloo', cursive; 
+  font-size:20px;
+} 
+
+.player-Flex-Container {
+  display: flex; 
+  height: 1px; 
+  flex-direction: row; 
+  justify-content: space-around;   
+  align-items: center; 
+} 
+
+.player-Left {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Left-Center {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Middle {
+  flex-flow: row wrap;
+  justify-content: space-between; 
+} 
+
+.player-Right-Center {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.player-Right {
+  justify-content: center; 
+  align-items: center; 
+} 
+
+.shuffle {
+  height: 50px;
+  width: 75px; 
+} 
+
+.shuffle-Button { 
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px; 
+} 
+
+.back {
+  height: 50px;
+  width: 75px; 
+}
+
+.back-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.play {
+  height: 50px;
+  width: 75px; 
+} 
+
+.play-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.forward {
+  height: 50px;
+  width: 75px; 
+} 
+
+.forward-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.repeat {
+  height: 50px;
+  width: 75px; 
+} 
+
+.repeat-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
+.timer {
+  height: 50px;
+  width: 75px; 
+} 
+
+.volume {
+  height: 50px;
+  width: 75px; 
+} 
+
+.volume-Button {
+  color:#E37222; 
+  font-family: 'Baloo', cursive; 
+  font-size:15px;
+} 
+
 .title {
   margin: 0;
   padding: 0;
@@ -9,3 +128,4 @@
   padding: 0;
   font-size: 12px;
 }
+

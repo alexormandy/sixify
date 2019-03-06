@@ -27,6 +27,7 @@ body {
   background-color: #E37222;
 }
 
+
 .navbar {
   grid-area: navBar;
   height: 90vh; 
@@ -65,3 +66,4 @@ body {
   font-family: 'Baloo', cursive; 
   font-size:20px;
 } 
+
