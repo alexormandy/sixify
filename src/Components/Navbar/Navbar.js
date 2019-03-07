@@ -10,7 +10,7 @@ class Navbar extends Component {
         <div className="navbar-Flex-Container">
           <div className="top-Nav-Section1">
             <div className="sixify-Logo">
-              <img src={logo} />
+              <img src={logo} alt="logo" />
             </div>
           </div>
           <div className="top-Nav-Section2">

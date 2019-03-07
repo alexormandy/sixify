@@ -11,10 +11,19 @@
     font-size:20px;
   }
 
+.table-header {
+    font-size: 40px;
+    color: red;
+}
+
+.table {
+    font-size: 20px;
+    color: #FFF;
+}
+
 .playlist {
     background-color:  #373737;
     color: white;
-    padding: 50px;
 }
 
 h1 {
