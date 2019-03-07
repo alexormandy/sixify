@@ -1,42 +1,65 @@
+.flex-container { 
+    display: flex;
+    align-items: flex-start;
+    order: 1;
+    
+}
+
 .toolbar__logo { 
+    position: relative;
+    right: 80px;
     color:whitesmoke;
     padding: 5px;
-   font-size: 40px;
+   font-size: 50px;
 }
 .toolbar_navigation-item {
-   padding: 40px;
-   color:#E37222;
-   position: relative;
-}
+    padding: 120px;
+    margin: 20px;
+    color:#E37222;
+    position: absolute;
+    right: 900px;
+    align-items: flex-start;
+   }
 .toolbar_navigation-item1 {
+   padding: 60px;
+   position: relative;
+   right: 40;
+   color:#E37222;
+   flex-wrap: wrap;
+   align-items: flex-start;
+}
+.toolbar_navigation-item2 {
     padding: 40px;
+    margin: 60px;
     color:#E37222;
     position: relative;
- }
- .toolbar_navigation-item2 {
-    padding: 40px;
-    color:#E37222;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
  }
  .toolbar_navigation-item3 {
+    padding: 40px;
+    margin: 80px;
+    color:#E37222;
+    flex-wrap: wrap;
+    align-items: flex-start;
+ }
+ .toolbar_navigation-item4 {
     padding: 30px;
     margin: 80px;
     position: relative;
-    right: 20px;
+    right: 50px;
     color:#E37222;
- }
- .toolbar_navigation-item4 {
-    padding: 40px;
-    margin: 100px;
-    position: relative;
-    right: 20px;
-    color:#E37222;
+    flex-wrap: wrap;
+    align-items: flex-start;
  }
  .toolbar_navigation-item5 {
     padding: 40px;
     margin: 10px;
+    position: absolute;
+    right: 50px;
     color:#E37222;
-    position: relative;
-   
-    
-    
+    flex-wrap: wrap;
+    align-items: flex-start;
  }
+ 

@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import './SearchBox.css'
+
 
 
 class Search extends Component {
@@ -14,16 +16,20 @@ class Search extends Component {
 
  render() {
    return ( 
-   
-     
+
+
+  <div>
+      <h1 className="fas fa-angle-left"> </h1> 
+      <h1 className="fas fa-angle-right"> </h1> 
      <form>
-       <input
+       <input className="SearchBox"
          placeholder="Search for..."
          ref={input => this.Search = input}
          onChange={this.handleInputChange}
        />
        <p>{this.state.query}</p>
      </form>
+   </div>
    )
  }
 }
