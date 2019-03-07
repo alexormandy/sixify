@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Content.css";
-import Toolbar from "../Search/Search";
+import Toolbar from "../Toolbar/Toolbar";
 
 import Table from "./Table";
 

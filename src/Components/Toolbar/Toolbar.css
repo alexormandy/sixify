@@ -1,0 +1,35 @@
+.toolbar__logo { 
+    color:whitesmoke;
+    padding: 5px;
+   font-size: 40px;
+}
+.toolbar_navigation-item {
+   padding: 40px;
+   color:#E37222;
+}
+.toolbar_navigation-item1 {
+    padding: 40px;
+    color:#E37222;
+ }
+ .toolbar_navigation-item2 {
+    padding: 40px;
+    color:#E37222;
+ }
+ .toolbar_navigation-item3 {
+    padding: 10px;
+    position: absolute;
+    right: 150px;
+    color:#E37222;
+ }
+ .toolbar_navigation-item4 {
+    padding: 10px;
+    position: absolute;
+    height: 50px;
+    right: 80px;
+    color:#E37222;
+ }
+ .toolbar_navigation-item5 {
+    padding: 10px;
+    color:#E37222;
+    
+ }
