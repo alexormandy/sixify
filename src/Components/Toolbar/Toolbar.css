@@ -41,24 +41,16 @@
     
     
  }
- .SearchBox {
-     position: absolute;
-     top: 60px;
-     left: 10px;
-     height: 20px;
-     width: 100px;
-     border-radius: 30%;
-     color:#E37222;
-}
+ 
  .arrowright {
      color:white;
      position: absolute;
      top: 100px;
-     left: 0px;
+     left: 420px;
 }
  .arrowleft { 
      color:white;
      position: absolute;
      top: 100px;
-     left: 0px;
+     left: 400px;
  }

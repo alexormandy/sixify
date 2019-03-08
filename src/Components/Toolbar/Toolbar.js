@@ -4,7 +4,7 @@ import './Toolbar.css'
 
 const Toolbar = props => (
     
-    <div className="flex-container">
+    <div>
     <a className="toolbar__logo" href="/">Sixify</a>
     <i className="fas fa-angle-left arrowleft"> </i> 
     <i className="fas fa-angle-right arrowright"> </i> 

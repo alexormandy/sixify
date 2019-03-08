@@ -1,0 +1,13 @@
+.flex-container { 
+    display: flex;
+
+}
+.Search {
+    position: absolute; 
+    top: 10px;
+    left: 140px;
+    height: 1px;
+    width: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}

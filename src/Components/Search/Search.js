@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './SearchBox.css'
+import './Search.css'
 
 
 
@@ -16,9 +16,10 @@ class Search extends Component {
 
  render() {
    return ( 
-    <div className="flex-container">
+    <div>
      <form>
-       <input className="SearchBox"
+       <div className="flex-container"></div>
+       <input className="Search"
          placeholder="Search for..."
          ref={input => this.Search = input}
          onChange={this.handleInputChange}
