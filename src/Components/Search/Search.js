@@ -16,11 +16,7 @@ class Search extends Component {
 
  render() {
    return ( 
-
-
-  <div>
-      <h1 className="fas fa-angle-left"> </h1> 
-      <h1 className="fas fa-angle-right"> </h1> 
+    <div>
      <form>
        <input className="SearchBox"
          placeholder="Search for..."
@@ -29,7 +25,8 @@ class Search extends Component {
        />
        <p>{this.state.query}</p>
      </form>
-   </div>
+     </div>
+   
    )
  }
 }

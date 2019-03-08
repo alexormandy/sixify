@@ -4,19 +4,16 @@ import './Toolbar.css'
 
 const Toolbar = props => (
     
-  <header className="toolbar">
-    <nav className="toolbar__navigation">
     <div className="flex-container">
+    <a className="toolbar__logo" href="/">Sixify</a>
+    <i className="fas fa-angle-left arrowleft"> </i> 
+    <i className="fas fa-angle-right arrowright"> </i> 
     <Search />
-        <a className="toolbar__logo" href="/">Sixify</a> 
-        <a className="toolbar_navigation-item1" href="/">Profile</a>
-        <a className="toolbar_navigation-item2" href="/">Help</a>
-        <a className="toolbar_navigation-item4" href="/">Sign up</a>
-        <a className="toolbar_navigation-item5" href="/">Log In</a>
-        <a className="toolbar_navigation-item" href="/">Playlist</a>
-        </div>
-        </nav>
-        </header>
+    <a className="Playlist" href="/">Playlist</a>
+    <a className="Profile" href="/">Profile</a>
+    <a className="Signup" href="/">Sign up</a>
+    <a className="Login" href="/">Login</a>
+    </div>
 )
 
 export default Toolbar
