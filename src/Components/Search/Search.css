@@ -4,10 +4,10 @@
 }
 .Search {
     position: absolute; 
-    top: 10px;
-    left: 140px;
+    top: 27px;
+    left: 320px;
     height: 1px;
-    width: 50px;
-    padding: 20px;
-    border-radius: 10px;
+    width: 100px;
+    padding: 10px;
+    border-radius: 23%;
 }

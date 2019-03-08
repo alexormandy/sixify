@@ -4,7 +4,7 @@ import Toolbar from "../Toolbar/Toolbar";
 
 
 class Content extends Component {
-  state = {};g
+  state = {};
   render() {
     return (
       <div className="content">
