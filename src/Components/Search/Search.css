@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 .flex-container {
     display: flex;
 }
 
 .Search {
     position: absolute;
+=======
+.flex-container { 
+    display: flex;
+
+}
+.Search {
+    position: absolute; 
+>>>>>>> georgi
     top: 27px;
     left: 320px;
     height: 1px;
