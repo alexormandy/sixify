@@ -24,7 +24,7 @@ class App extends Component {
           <div className="login">
             <img src={logo} alt="sixify" />
             <button className="login btn" onClick={this.loginWithSpotify}>
-              Login With Spotify
+              Login With Sixify
             </button>
           </div>
         )}

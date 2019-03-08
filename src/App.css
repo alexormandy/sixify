@@ -80,3 +80,8 @@ body {
 .btn--login {
   margin: 0 auto;
 }
+
+.login {
+  display: flex;
+  justify-content: center;
+}
