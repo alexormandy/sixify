@@ -7,32 +7,24 @@ class Navbar extends Component {
   render() {
     return (
       <div className="navbar">
-        <div className="navbar-Flex-Container">
-          <div className="top-Nav-Section1">
-            <div className="sixify-Logo">
-              <img src={logo} alt="logo" />
-            </div>
+        <div className="top-nav">
+          <div className="nav-logo">
+            <img src={logo} />
           </div>
-          <div className="top-Nav-Section2">
-            <div className="home">
-              <button className="home-Button">Home</button>
-            </div>
-            <div className="search">
-              <button className="search-Button">Search</button>
-            </div>
-            <div className="library">
-              <button className="library-Button">Library</button>
-            </div>
-          </div>
-          <div className="middle-Nav-Section1" />
-          <div className="middle-Nav-Section2" />
-          <div className="bottom-Nav">
-            <div className="image-Container">Image Container</div>
-            <div className="new-Playlist">
-              <button className="new-Playlist-Button">New Playlist</button>
-            </div>
+
+          <div className="nav-menu">
+              <button className="nav-button">Home</button>
+              <button className="nav-button">Search</button>
+              <button className="nav-button">Library</button>
           </div>
         </div>
+
+
+          <div className="bottom-Nav"> 
+            <div className="image-Container">Image Container</div>
+            <button className="nav-button">New Playlist</button>
+          </div>
+         
       </div>
     );
   }

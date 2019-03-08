@@ -18,41 +18,43 @@ class Player extends Component {
 
   render() {
 
-    return <div className="player">
-        <div className="player-Flex-Container"> 
-            <div className="player-Left">
-            </div>
-            <div className="player-Left-Center">
+    return (
+      <div className="player">
+        
+            <div className="player-left">
             </div>
             <div className="player-middle">
-                <div className="shuffle">
-                    <button className="shuffle-Button">Shuffle</button>
-                </div>
-                <div className="back">
-                    <button className="back-Button">Back</button>
-                </div> 
-                <div className="play">
-                    <button className="play-Button">Play</button>
-                </div>
-                <div className="forward">
-                    <button className="forward-Button">Forward</button>
-                </div>
-                <div className="repeat">
-                    <button className="repeat-Button">Repeat</button>
-                </div>
+              <div className="controls-top">
+                
+                      <button className="control-button shuffle">Shuffle</button>
+                
+                
+                      <button className="control-button back">Back</button>
+                
+                
+                      <button className="control-button play">Play</button>
+                
+                
+                      <button className="control-button skip">Forward</button>
+                
+                
+                      <button className="control-button repeat">Repeat</button>
+                
+              </div>
+
+              <div className="controls-bottom">
                 <div className="timer">
-                    Timer
-                </div>
-            </div>
-            <div className="player-Right-Center">
-            </div>
+                      
+                  </div>
+              </div>
+
+        </div> 
             <div className="player-Right">
-                <div className="volume">
-                    <button className="volume-Button">Volume</button> 
-                </div>
-            </div>
-        </div>
-    </div>
+                    <button className="control-button volume">Volume</button> 
+            </div>  
+       
+    </div> 
+    );
   }
 }
 
