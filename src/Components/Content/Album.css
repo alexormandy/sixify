@@ -1,0 +1,8 @@
+.album-info img{
+    float: left;
+}
+
+.album-info h1, p {
+    position: relative;
+    left: 10px;
+}
