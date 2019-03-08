@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Table from "./Table";
+import './Album.css';
+import Table from "../Table/Table";
 
 
 class Album extends Component {
@@ -7,7 +8,6 @@ class Album extends Component {
     render() { 
         return ( 
         <div className="album-info">
-            <img src ="./Content/images/album.jpg" height="200px" width="200px" />
             <h1> Album Name: </h1>
             <p> Artist</p>
             <p> Year Songs Durations</p>

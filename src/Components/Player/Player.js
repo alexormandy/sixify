@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Player.css";
-// import Song from './Song/Song.js';
-// import Artist from './Artist/Artist.js';
+// import Song from '../CurrentSong/CurrentSong';
+// import Artist from '../CurrentArtist/CurrentArtist';
 
 class Player extends Component {
 

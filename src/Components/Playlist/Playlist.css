@@ -6,3 +6,8 @@ table {
 .header {
     font-size: 30px;
 }
+
+.playlist {
+    background-color:  #373737;
+    color: white;
+}

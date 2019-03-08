@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Table from './Table'
+import './Artist.css';
+import Table from '../Table/Table'
 
 class Artist extends Component {
     state = {}
