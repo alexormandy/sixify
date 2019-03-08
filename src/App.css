@@ -27,7 +27,7 @@ body {
   grid-area: navbar;
   height: 100%; 
   width: auto;
-  background-color: #46e61e;
+  background-color: #373737;
 
   box-sizing: border-box;
   padding: 20px;
@@ -40,19 +40,22 @@ body {
 
 .content {
   grid-area: content; 
-  background-color: rgb(19, 15, 235);
-  /* height: 100%;
-  width: 100%; */
-  /* justify-content: left; */
-  /* align-items: left; */
-  /* padding: 25px; */
+  height: 100%; 
+  width: 100%;
+  background-color: black;  
+
+  display: grid;
+  grid-template-rows: 40% 60%; 
+  grid-template-areas:    
+    "con-top"
+    "con-bottom"; 
 }
 
 .player {
   grid-area: player;
   height: auto;  
   width: 100%; 
-  background-color: #46b923; 
+  background-color: #373737; 
   
   display: grid;
   grid-template-columns: 200px auto 200px;
