@@ -1,9 +1,13 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Baloo");
+=======
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+>>>>>>> master
 
 html,
 body {
-  height: 100%;
   margin: 0;
+<<<<<<< HEAD
 }
 
 .wrapper {
@@ -24,9 +28,29 @@ body {
   height: 100%;
   width: 100%;
   background-color: #e37222;
+=======
+  color: #E37222;
+  font-family: 'Baloo', cursive;
+  font-size: 20px;
+}
+
+.grid-container {
+  height: 100vh;
+  width: 100%; 
+  background-color: #E37222;
+  display: grid;
+  grid-template-columns: auto 1fr; 
+  grid-template-rows:  1fr auto;  
+  grid-template-areas: 
+    "navbar content"
+    "player player"; 
+
+  gap: 5px;
+>>>>>>> master
 }
 
 .navbar {
+<<<<<<< HEAD
   grid-area: navBar;
   height: 90vh;
   width: 10vw;
@@ -70,6 +94,45 @@ body {
   padding: 20px;
   justify-content: center;
 }
+=======
+  grid-area: navbar;
+  height: 100%; 
+  width: auto;
+  background-color: #373737;
+
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left; 
+  
+} 
+
+.content {
+  grid-area: content; 
+  height: 100%; 
+  width: 100%;
+  background-color: black;  
+
+  display: grid;
+  grid-template-rows: 40% 60%; 
+  grid-template-areas:    
+    "con-top"
+    "con-bottom"; 
+}
+
+.player {
+  grid-area: player;
+  height: auto;  
+  width: 100%; 
+  background-color: #373737; 
+  
+  display: grid;
+  grid-template-columns: 200px auto 200px;
+  grid-template-areas: "left middle right";
+} 
+>>>>>>> master
 
 .btn {
   background-color: transparent;
