@@ -1,30 +1,16 @@
 import React from 'react'
-import Search from './Search'
-
-
+import Search from '../Search/Search'
 import './Toolbar.css'
 
 const Toolbar = props => (
-  <header className="toolbar">
-    <nav className="toolbar__navigation">
-      <div />
-      <div className="toolbar__logo">
-        <a href="/">Sixify</a>
-      </div>
-      <Search /> 
-      <div className="spacer" />
-      <div className="toolbar_navigation-items">
-        <ul>
-          <li>
-            <a href="/">Products</a>
-          </li>
-          <li>
-            <a href="/">Users</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+
+   <div className="flex-container">
+   <i className="fas fa-angle-left arrowleft"> </i>
+   <i className="fas fa-angle-right arrowright"> </i>
+
+   <Search />
+   </div>
+
 )
 
-export default Toolbar
+export default Toolbar;

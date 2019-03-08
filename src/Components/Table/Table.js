@@ -1,7 +1,5 @@
 import React from 'react';
-import './Playlist/Playlist.css'
-import './Album.css'
-
+import './Table.css';
 
 const Table = (props) => {
     return(

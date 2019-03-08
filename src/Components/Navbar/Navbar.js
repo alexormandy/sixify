@@ -9,7 +9,7 @@ class Navbar extends Component {
       <div className="navbar">
         <div className="top-nav">
           <div className="nav-logo">
-            <img src={logo} />
+            <img src={logo} alt="Sixify Logo" />
           </div>
 
           <div className="nav-menu">
