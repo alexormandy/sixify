@@ -16,7 +16,7 @@ class Search extends Component {
 
  render() {
    return ( 
-    <div>
+    <div className="flex-container">
      <form>
        <input className="SearchBox"
          placeholder="Search for..."

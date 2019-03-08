@@ -42,12 +42,12 @@
     
  }
  .SearchBox {
-     position: relative;
+     position: absolute;
      top: 60px;
-     left: 0px;
+     left: 10px;
      height: 20px;
      width: 100px;
-     border-radius: 25%;
+     border-radius: 30%;
      color:#E37222;
 }
  .arrowright {
