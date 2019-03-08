@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import "./Player.css";
-import Song from './Song/Song.js';
-import Artist from './Artist/Artist.js';
+// import Song from './Song/Song.js';
+// import Artist from './Artist/Artist.js';
 
 class Player extends Component {
 
   state = {
     current: {
       song: 'testing',
-      artist: 'oli is a cunt',
+      artist: 'oli is a nice guy',
       time: {
         elapsed: '',
         left: ''
