@@ -38,6 +38,9 @@
 
 .control-button { 
   color:#E37222; 
+  background-color: black; 
+  border: 2px solid #E37222; 
+
   font-family: 'Baloo', cursive; 
   font-size:15px; 
   margin: 10px;
@@ -47,7 +50,7 @@
 
 .timer {
   width: 60%;
-  background-color: pink;
+  background-color: #E37222; 
   height: 10px;
   border-radius: 10px;
 

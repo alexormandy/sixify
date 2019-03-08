@@ -8,15 +8,20 @@ class Content extends Component {
   render() {
     return (
       <div className="content">
-        <div className="content-Flex-Container">
-          <div className="top-Content">
+
+          <div className="top-content">
+
             <div className="toolbar"><Toolbar /></div>
+
           </div>
-          <div className="bottom-Content">
+
+          <div className="bottom-content">
+
             <div className="playlist-Table"></div> 
+            
           </div>
+
         </div>
-      </div>
     );
   }
 }

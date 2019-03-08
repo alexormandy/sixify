@@ -1,21 +1,17 @@
- 
-  .content-Flex-Container {
-    display: flex; 
-    /* height: 90vh; 
-    width: 90vh;  */
-    flex-direction: column; 
-    justify-content: space-between;   
-    align-items: left; 
-  }
+ .top-content{
+    grid-area: con-top;
+    justify-content: left; 
+    align-items: center; 
+    background-color: red; 
+ } 
+
+ .bottom-content{
+    grid-area: con-bottom;
+    justify-content: left; 
+    align-items: center; 
+    background-color: #ffff00; 
+ }
 
 
-
-.playlist-Table {
-    background-color:  #373737;
-    color: white;
-    padding:50px; 
-    height: 74vh; 
-    width: 83.75vw;  
-}
 
 
