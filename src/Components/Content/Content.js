@@ -2,16 +2,26 @@ import React, { Component } from "react";
 import "./Content.css";
 import Toolbar from "../Toolbar/Toolbar";
 
-import Table from "./Table";
 
 class Content extends Component {
   state = {};g
   render() {
     return (
       <div className="content">
-        <Toolbar />
-        <Table />
-      </div>
+
+          <div className="top-content">
+
+            <div className="toolbar"><Toolbar /></div>
+
+          </div>
+
+          <div className="bottom-content">
+
+            <div className="playlist-Table"></div> 
+            
+          </div>
+
+        </div>
     );
   }
 }
