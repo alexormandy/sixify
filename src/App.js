@@ -15,10 +15,9 @@ class App extends Component {
 
   render() {
     return (
-<<<<<<< HEAD
       <div>
         {this.state.isLoggedIn ? (
-          <div>
+          <div className="grid-container">
             <Navbar /> <Content /> <Player />{" "}
           </div>
         ) : (
@@ -30,16 +29,6 @@ class App extends Component {
           </div>
         )}
       </div>
-=======
-        <div className="grid-container">
-          <Navbar />
-          <Content />
-          <Player />
-          
-          
-          
-        </div>
->>>>>>> master
     );
   }
 }

@@ -13,24 +13,16 @@ class Navbar extends Component {
           </div>
 
           <div className="nav-menu">
-              <button className="nav-button">Home</button>
-              <button className="nav-button">Search</button>
-              <button className="nav-button">Library</button>
+            <button className="nav-button">Home</button>
+            <button className="nav-button">Search</button>
+            <button className="nav-button">Library</button>
           </div>
         </div>
 
-
-          <div className="bottom-Nav"> 
-            <div className="image-Container">Image Container</div>
-<<<<<<< HEAD
-            <div className="gi new-Playlist">
-              <button className="new-Playlist-Button">New Playlist</button>
-            </div>
-=======
-            <button className="nav-button">New Playlist</button>
->>>>>>> master
-          </div>
-         
+        <div className="bottom-Nav">
+          <div className="image-Container">Image Container</div>
+          <button className="nav-button">New Playlist</button>
+        </div>
       </div>
     );
   }
