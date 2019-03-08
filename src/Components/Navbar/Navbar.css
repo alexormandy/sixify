@@ -1,106 +1,46 @@
 
-.navbar {
-  grid-area: navBar;
-  height: 80vh; 
-  width: 10vw; 
-  background-color: #373737; 
-  padding: 25px;
-  color: #E37222; 
-}  
+.nav-button {
+  box-sizing: content-box;
+  padding: 0;
+  font-size: 15px;
+  height: 30px;
+  width: 150px;
+  background-color: black; 
+  border: 2px solid #E37222;
+  color: #E37222;
+  font-family: 'Baloo', cursive;
+}
 
-
-.navbar-Flex-Container {
-  display: flex; 
-  height: 850px; 
-  flex-direction: column; 
-  justify-content: space-around;   
+.nav-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
   align-items: center; 
 }
 
-.top-Nav-Section1 {
-  justify-content: center; 
-  align-items: center; 
-}
-.top-Nav-Section2 {
+.nav-menu {
+  display: flex;
+  flex-direction: column;
   justify-content: space-between; 
   align-items: center; 
-}
-
-.middle-Nav-Section1{
-  justify-content: center; 
-  align-items: center; 
-}
-
-.middle-Nav-Section2{
-  justify-content: center; 
-  align-items: center; 
+  height: 120px;
+  padding: 30px 0;
 }
 
 .bottom-Nav {
-  justify-content: space-between; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
 }
-
-.home {
-  height: 50px;
-  width: 150px;
-}
-
-.home-Button { 
-  color:#E37222; 
-  font-family: 'Baloo', cursive; 
-  font-size:15px;
-  height: 30px;
-  width: 105px;
-} 
-
-.search {
-  height: 50px;
-  width: 150px;
-}
-
-.search-Button { 
-  color:#E37222; 
-  font-family: 'Baloo', cursive; 
-  font-size:15px;
-  height: 30px;
-  width: 105px;
-} 
-
-.library {
-  height: 50px;
-  width: 150px;
-}
-
-.library-Button {
-  color:#E37222; 
-  font-family: 'Baloo', cursive; 
-  font-size:15px;
-  height: 30px;
-  width: 105px;
-} 
 
 .image-Container {
-  display: block; 
+  display: flex; 
   height: 150px;
-  width: 150px; 
-  color:#E37222; 
-  background-color: yellow; 
-  font-family: 'Baloo', cursive;  
-  font-size:15px;
-  border: 2px solid #E37222; 
-} 
-
-.new-Playlist {
-  height: 50px;
-  width: 150px; 
-
+  width: 150px;
+  background-color: black; 
+  border: 2px solid #E37222;  
+  font-size: 15px;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 10px;
 }
-
-.new-Playlist-Button { 
-  color:#E37222;  
-  font-family: 'Baloo', cursive; 
-  font-size:15px; 
-  height: 30px;
-  width: 105px;
-}  
