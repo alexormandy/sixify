@@ -5,11 +5,11 @@ class MediaControls extends Component {
   render() {
     return(
       <div className="controls-top">
-        <ShuffleButton className="control-button shuffle" />
-        <BackButton className="control-button back" />
-        <PlayButton className="control-button play" />
-        <SkipButton className="control-button skip" />
-        <RepeatButton className="control-button repeat" />
+        <ShuffleButton />
+        <BackButton />
+        <PlayButton />
+        <SkipButton />
+        <RepeatButton />
       </div>
     );
   }
@@ -17,31 +17,31 @@ class MediaControls extends Component {
 
 const ShuffleButton = () => {
   return(
-    <p>ff</p>
+    <i className="fas fa-random"></i>
   );
 }
 
 const BackButton = () => {
   return(
-    <p>ff</p>
+    <button className="control-button back">Back</button>
   );
 }
 
 const PlayButton = () => {
   return(
-    <p>ff</p>
+    <button className="control-button play">Play</button>
   );
 }
 
 const SkipButton = () => {
   return(
-    <p>ff</p>
+    <button className="control-button skip">Skip</button>
   );
 }
 
 const RepeatButton = () => {
   return(
-    <p>ff</p>
+    <button className="control-button repeat">Repeat</button>
   );
 }
 

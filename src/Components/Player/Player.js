@@ -27,7 +27,8 @@ class Player extends Component {
   render() {
     return (
       <div className="player">
-        <div className="player-left" />
+        <div className="player-left">
+        </div>
         <div className="player-middle">
           <div className="controls-top">
             {/* <button className="control-button shuffle">Shuffle</button>
@@ -39,10 +40,13 @@ class Player extends Component {
           </div>
 
           <div className="controls-bottom">
-            <div className="timer"></div>
+            <div className="timer">
+              {/* <Timer /> */}
+            </div>
           </div>
         </div>
         <div className="player-Right">
+          {/* <Volume /> */}
           <button className="control-button volume">Volume</button>
         </div>
       </div>
