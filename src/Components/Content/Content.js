@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "./Content.css";
 import Toolbar from "../Toolbar/Toolbar";
+import Artist from "../Artist/Artist";
+import Search from "../Search/Search";
 
 
 class Content extends Component {
@@ -9,8 +11,10 @@ class Content extends Component {
     return (
       <div className="content">
         <Toolbar />
-        <Album /> 
-        {/* <Artist /> */}
+        <Artist />
+        <Search />
+       
+        
 
       </div>
     );
