@@ -4,7 +4,7 @@ import './MediaControls.css';
 class MediaControls extends Component {
   render() {
     return(
-      <div className="controls-top">
+      <div>
         <ShuffleButton />
         <BackButton />
         <PlayButton />
@@ -23,25 +23,26 @@ const ShuffleButton = () => {
 
 const BackButton = () => {
   return(
-    <button className="control-button back">Back</button>
+    <i class="fas fa-step-backward"></i>
   );
 }
 
 const PlayButton = () => {
   return(
-    <button className="control-button play">Play</button>
+    <i class="fas fa-play"></i>
+    // <i class="fas fa-pause"></i>
   );
 }
 
 const SkipButton = () => {
   return(
-    <button className="control-button skip">Skip</button>
+    <i class="fas fa-step-forward"></i>
   );
 }
 
 const RepeatButton = () => {
   return(
-    <button className="control-button repeat">Repeat</button>
+    <i class="fas fa-redo"></i>
   );
 }
 
